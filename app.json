@@ -1,9 +1,9 @@
 {
-    "name": "SHIBU 𝗨𝗦𝗘𝗥𝗕𝗢𝗧",
-    "logo": "https://envs.sh/ciM.png",
+    "name": "𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗨𝗦𝗘𝗥𝗕𝗢𝗧",
+    "logo": "https://graph.org/file/c6a2ed96648fd03377dc9.jpg",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/Legendbap/Shibu-userbot-",
+    "repository": "https://github.com/itzshukla/STRANGER-USERBOT2.0",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
@@ -17,13 +17,13 @@
         },
         "SUDO_USERS": {
             "description": "don't Change this there /id",
-            "required": true
-            "value": "7662426827 7305771160"
+            "required": true,
+            "value": "6762113050 6919199044"
         },
         "OWNER_ID": {
             "description": "Fill there your I'd",
             "required": true,
-            "value": "7662426827"
+            "value": "6762113050"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
@@ -32,4 +32,4 @@
         }
 
     }
-  }
+}
