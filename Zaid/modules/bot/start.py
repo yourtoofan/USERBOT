@@ -16,7 +16,7 @@ PHONE_NUMBER_TEXT = (
 async def hello(client: app, message):
     buttons = [
               [
-                  InlineKeyboardButton(text="🍁 sᴇssɪᴏɴ ɢᴇɴ ʙᴏᴛ 🍁️", url="https://t.me/suhsn_string_robot"),
+                  InlineKeyboardButton(text="🍁 sᴇssɪᴏɴ ɢᴇɴ ʙᴏᴛ 🍁️", url="https://t.me/suhan_string_robot"),
               ],
               [
                   InlineKeyboardButton(text="🌿 ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🌿", url="https://t.me/vanshi_support"),
