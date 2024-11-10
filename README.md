@@ -1,4 +1,4 @@
-<p align="center">⚡️𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥-𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡️</p>
+<p align="center">𝗦𝗨𝗛𝗔𝗡-𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡️</p>
 
 <img src="https://graph.org/file/c6a2ed96648fd03377dc9.jpg">
 
