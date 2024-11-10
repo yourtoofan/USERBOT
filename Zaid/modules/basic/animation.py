@@ -100,7 +100,7 @@ async def phase4(message):
         await asyncio.sleep(SLEEP)
 
 
-@Client.on_message(filters.command(["heart", "love"], ".") & filters.me)
+@Client.on_message(filters.command(["saba", "love"], ".") & filters.me)
 async def hearts(client: Client, message: Message):
     await phase1(message)
     await asyncio.sleep(SLEEP * 3)
@@ -114,7 +114,7 @@ async def hearts(client: Client, message: Message):
 
 
 @Client.on_message(
-    filters.me & (filters.command(["loveyou"], ".") | filters.regex("^loveyou "))
+    filters.me & (filters.command(["suhan"], ".") | filters.regex("^loveyou "))
 )
 async def _(client: Client, message: Message):
     noble = random.randint(1, len(NOBLE) - 2)
@@ -173,12 +173,12 @@ async def hello_world(client: Client, message: Message):
 
 
 @Client.on_message(
-    filters.me & (filters.command(["shiv"], ".") | filters.regex("^shiv"))
+    filters.me & (filters.command(["saim"], ".") | filters.regex("^shiv"))
 )
 async def hello_world(client: Client, message: Message):
-    mg = await edit_or_reply(message, "sᴛʀᴀɴɢᴇʀ")
+    mg = await edit_or_reply(message, "saim")
     await asyncio.sleep(0.3)
-    await mg.edit("sʜɪᴠᴀɴsʜ")
+    await mg.edit("saim")
     await asyncio.sleep(0.4)
     await mg.edit("ᴏᴘ")
     await asyncio.sleep(0.3)
@@ -190,7 +190,7 @@ async def hello_world(client: Client, message: Message):
     await asyncio.sleep(0.4)
     await mg.edit("ᴛᴏᴘɪ")
     await asyncio.sleep(0.3)
-    await mg.edit(" ᴊᴏʀ sᴇ ʙᴏʟᴏ sʜɪᴠᴀɴsʜ ᴘᴀᴘᴀ ᴊɪ ᴊᴀɪ💘")
+    await mg.edit(" ᴊᴏʀ sᴇ ʙᴏʟᴏ saim ᴘᴀᴘᴀ ᴊɪ ᴊᴀɪ💘")
 
 
 @Client.on_message(filters.command("brain", ".") & filters.me)
@@ -272,8 +272,8 @@ async def hajqag(client: Client, message: Message):
         "`Me: ʙʜᴀɪ...ʏᴀᴀʀ ᴍᴇʀɪ ɢᴀᴀɴᴅ ᴍᴀʀᴏ ʙᴜᴛ ᴍᴜᴊʜᴇ ᴍᴀғ ᴋᴀʀᴏ...🤯`",
         "`ㅤ sᴛʀᴀɴɢᴇʀ🍃 : ʜɪʜɪʜɪ... ʏᴇ ʜᴜɪ ɴᴀ ʙᴀᴀᴛ....😁😁\nᴄʜᴀʟ ᴀᴀʙ ᴀᴀᴘɴɪ ʀᴀɴᴅɪ ᴍᴀʏʏᴀ ᴋᴏ #_sᴛʀᴀɴɢᴇʀᴡᴏʀʟᴅ ᴋᴇ ᴠᴄ ᴘᴇ ʙᴜʟᴀ ᴋᴇ ʟᴏᴠᴇ ᴜ ʙᴏʟɴᴇ  ᴋᴏ ʙᴏʟ😛😛.`",
         "`Me: ʙʜᴀɪ ᴘʟᴢ ɢᴀʟɪ ᴍᴛ ᴅᴏ😥.`",
-        "`ㅤ sᴛʀᴀɴɢᴇʀ🍃 : ᴛᴏ #_sᴛʀᴀɴɢᴇʀ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟ ᴀᴜʀ...ᴄʜᴀʟ ʙʜᴀɢ ʏᴀʜᴀ sᴇ ᴍᴄ..ʙsᴅᴋᴇ ᴋᴇ ᴘʜɪʀ ᴄᴀʟʟ ᴋɪʏᴀ ᴛᴏ #_sᴛʀᴀɴɢᴇʀᴡᴏʀʟᴅ ᴋɪ ᴠᴄ ᴘᴇ ᴛᴇʀᴇ ʙᴀᴀᴘ ᴋɪ ᴄʜᴜᴛ ᴍᴀʀᴜɴɢᴀ..🤣🤣  \n🙈𝐓ɢ 𝐏ᴇ 𝐑ᴇʜɴᴀ 𝐇ᴀɪ 𝐓ᴏ🧐sᴛʀᴀɴɢᴇʀ 𝐊ᴏ 𝐁ᴀᴀᴘ💞ᴋᴀʜɴᴀ ʜᴀɪ🤪 @SHIVANSH474 👻 :)`",
-        "`Private Call Disconnected....ᴊᴏʀ sᴇ ʙᴏʟᴏ sᴛʀᴀɴɢᴇʀ ᴘᴀᴘᴀ ᴊɪ ᴊᴀɪ🤣🤣🤣`",
+        "`ㅤ sᴛʀᴀɴɢᴇʀ🍃 : ᴛᴏ #_saim ᴋᴏ ʙᴀᴀᴘ ʙᴏʟ ᴀᴜʀ...ᴄʜᴀʟ ʙʜᴀɢ ʏᴀʜᴀ sᴇ ᴍᴄ..ʙsᴅᴋᴇ ᴋᴇ ᴘʜɪʀ ᴄᴀʟʟ ᴋɪʏᴀ ᴛᴏ #_sᴛʀᴀɴɢᴇʀᴡᴏʀʟᴅ ᴋɪ ᴠᴄ ᴘᴇ ᴛᴇʀᴇ ʙᴀᴀᴘ ᴋɪ ᴄʜᴜᴛ ᴍᴀʀᴜɴɢᴀ..🤣🤣  \n🙈𝐓ɢ 𝐏ᴇ 𝐑ᴇʜɴᴀ 𝐇ᴀɪ 𝐓ᴏ🧐sᴛʀᴀɴɢᴇʀ 𝐊ᴏ 𝐁ᴀᴀᴘ💞ᴋᴀʜɴᴀ ʜᴀɪ🤪 @SHIVANSH474 👻 :)`",
+        "`Private Call Disconnected....ᴊᴏʀ sᴇ ʙᴏʟᴏ saim ᴘᴀᴘᴀ ᴊɪ ᴊᴀɪ🤣🤣🤣`",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
@@ -392,13 +392,13 @@ async def gajjajay(client: Client, message: Message):
     await asyncio.sleep(0.5)
     await message.edit("UNtIL ")
     await asyncio.sleep(0.2)
-    await message.edit("#_sᴛʀᴀɴɢᴇʀ")
+    await message.edit("#_saim")
     await asyncio.sleep(0.3)
     await message.edit("ArRivE")
     await asyncio.sleep(0.3)
     await message.edit("🔥🔥🔥")
     await asyncio.sleep(0.3)
-    await message.edit("EVERyBOdy iZ GangSTur UNtIL #_sᴛʀᴀɴɢᴇʀ ArRivE 🔥🔥🔥")
+    await message.edit("EVERyBOdy iZ GangSTur UNtIL #_saim ArRivE 🔥🔥🔥")
 
 
 @Client.on_message(filters.command("charging", ".") & filters.me)
@@ -451,7 +451,7 @@ async def kocok(client: Client, message: Message):
     await e.edit("8===✊D💦💦💦💦💦💦💦💦💦")
     await e.edit("8==✊=D💦💦💦💦💦💦💦💦💦💦")
     await e.edit("8=✊==D ᴋʜᴀᴛᴀᴍ ᴛᴀᴛᴀ ʙʏᴇ ɢᴏᴏᴅ ʙʏᴇ ɢʏᴀ")
-    await e.edit("ᴀʙᴇ sᴀʟᴇ ᴋʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ᴛᴜ ʙʜɪ ᴛᴏʜ ᴋᴀʀᴛᴀ")
+    await e.edit("@If_SAIM iska muh me le le")
 
 
 @Client.on_message(filters.command(["fuck", "fucek"], ".") & filters.me)
@@ -618,7 +618,7 @@ async def adadino(client: Client, message: Message):
     await typew.edit("`-DIED-`")
 
 
-@Client.on_message(filters.command(["sayang", "lover"], ".") & filters.me)
+@Client.on_message(filters.command(["saba", "suhan"], ".") & filters.me)
 async def zeyenk(client: Client, message: Message):
     e = await edit_or_reply(message, "I LOVEE YOUUU 💕")
     await e.edit("💝💘💓💗")
@@ -856,7 +856,7 @@ async def helikopter(client: Client, message: Message):
         "▬▬▬.◙.▬▬▬ \n"
         "═▂▄▄▓▄▄▂ \n"
         "◢◤ █▀▀████▄▄▄▄◢◤ \n"
-        "█▄ █ █▄ ███sʜɪᴠᴀɴsʜ-xᴅ▀▀▀▀╬ \n"
+        "█▄ █ █▄ ███@IF_SAIM▀▀▀▀╬ \n"
         "◥█████◤ \n"
         "══╩══╩══ \n"
         "╬═╬ \n"
@@ -865,7 +865,7 @@ async def helikopter(client: Client, message: Message):
         "╬═╬ \n"
         "╬═╬ \n"
         "╬═╬ \n"
-        "╬═╬ ʜᴇʟʟᴏ ʙᴀʙʏ ɪ ᴀᴍ sᴛʀᴀɴɢᴇʀ:) \n"
+        "╬═╬ ʜᴇʟʟᴏ ʙᴀʙʏ ɪ ᴀᴍ saim:) \n"
         "╬═╬☻/ \n"
         "╬═╬/▌ \n"
         "╬═╬/ \\ \n",
@@ -909,7 +909,7 @@ async def awikwok(client: Client, message: Message):
         "──▄▀█▄▄▄─────▄▀█▄▄▄\n"
         "▄▀──█▄▄──────█─█▄▄\n"
         "─▄▄▄▀──▀▄───▄▄▄▀──▀▄\n"
-        "─▀───────▀▀─▀───────▀▀\n`ɴɪᴋᴀʟ ᴍᴄ😥😥.. ɢᴀᴀʟɪ ɴᴀ ᴅᴇ ᴠᴀʀɴᴀ sᴛʀᴀɴɢᴇʀ ᴛᴇʀɪ ɢ**ᴅ ᴍᴀᴀʀ ʟᴇɢᴀ.👻`",
+        "─▀───────▀▀─▀───────▀▀\n`ɴɪᴋᴀʟ ᴍᴄ😥😥.. ɢᴀᴀʟɪ ɴᴀ ᴅᴇ ᴠᴀʀɴᴀ saim ᴛᴇʀɪ ɢ**ᴅ ᴍᴀᴀʀ ʟᴇɢᴀ.👻`",
     )
 
 
@@ -924,8 +924,8 @@ async def ysaja(client: Client, message: Message):
         "‡‡‡‡‡‡‡‡‡█‡‡‡‡‡‡█\n"
         "██████▄▄█‡‡‡‡‡‡████████▄\n"
         "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡█\n"
-        "▓▓▓▓▓▓█‡‡‡💘#_sʜɪᴠᴀɴsʜ-ᴏᴘ👻‡‡‡‡‡‡‡‡█\n"
-        "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡‡💗ʙʏ sᴛʀᴀɴɢᴇʀ🌺‡‡‡‡█\n"
+        "▓▓▓▓▓▓█‡‡‡💘#_saim-ᴏᴘ👻‡‡‡‡‡‡‡‡█\n"
+        "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡‡💗ʙʏ saim🌺‡‡‡‡█\n"
         "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡█\n"
         "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡█\n"
         "▓▓▓▓▓▓█████‡‡‡‡‡‡‡‡‡‡‡‡██\n"
@@ -949,7 +949,7 @@ async def babi(client: Client, message: Message):
     await edit_or_reply(
         message,
         "┈┈┏━╮╭━┓┈╭━━━━╮\n"
-        "┈┈┃┏┗┛┓┃╭┫@SHIVANSH474 ┃\n"
+        "┈┈┃┏┗┛┓┃╭┫@vanshi_support ┃\n"
         "┈┈╰┓▋▋┏╯╯╰━━━━╯\n"
         "┈╭━┻╮╲┗━━━━╮╭╮┈\n"
         "┈┃▎▎┃╲╲╲╲╲╲┣━╯┈\n"
@@ -1300,7 +1300,7 @@ add_command_help(
         ["dino", "To display dino chased animation."],
         ["santet", "To display online blackmail animation."],
         ["gabut", "To display the animation gait."],
-        ["sayang or lover", "To display the animation dear."],
+        ["saba or suhan", "To display the animation dear."],
         ["hack", "To display a fake hacking animation."],
         ["bomb", "To display the Bomb animation."],
         ["brain", "To display the Brain animation 🧠."],
