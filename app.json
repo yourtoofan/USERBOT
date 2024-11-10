@@ -3,7 +3,7 @@
     "logo": "https://envs.sh/ciM.png",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/Legendbap/STRANGER-USERBOT2.0",
+    "repository": "https://github.com/Legendbap/Shibu-userbot-",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
@@ -17,7 +17,7 @@
         },
         "SUDO_USERS": {
             "description": "don't Change this there /id",
-            "required": true,
+            "required": true
             "value": "7662426827 7305771160"
         },
         "OWNER_ID": {
