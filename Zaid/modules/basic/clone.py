@@ -1,4 +1,4 @@
-buimport os
+import os
 
 from pyrogram import *
 from pyrogram.types import *
