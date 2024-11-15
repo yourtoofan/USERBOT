@@ -16,17 +16,17 @@ PHONE_NUMBER_TEXT = (
 async def hello(client: app, message):
     buttons = [
               [
-                  InlineKeyboardButton(text="🍁 sᴇssɪᴏɴ ɢᴇɴ ʙᴏᴛ 🍁️", url="https://t.me/@STRING_SESSION_llBOT"),
+                  InlineKeyboardButton(text="🍁 sᴇssɪᴏɴ ɢᴇɴ ʙᴏᴛ 🍁️", url="https://t.me/STRING_SESSION_llBOT"),
               ],
               [
                   InlineKeyboardButton(text="🌿 ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🌿", url="https://t.me/VAMPIRE_UPDATEE"),
               ],
               [
-                  InlineKeyboardButton("⌯ ˹𝐀𝐋𝐄𝐗 ♡ 𝐗ᴅ𓆪 ⌯ 🥂 / ‹𝟹 #𝐅ᴜᴄᴋ_𝐓ʜᴇ_𝐇ᴀᴛᴇʀ𝗌 ˼ 🇮🇳", url="https://t.me/LX_FOREVER"),
+                  InlineKeyboardButton("⌯ ˹Vᴀᴍᴘɪʀᴇ ♡ 𝐗ᴅ𓆪 ⌯ 🥂 / ‹𝟹 #𝐅ᴜᴄᴋ_𝐓ʜᴇ_𝐇ᴀᴛᴇʀ𝗌 ˼ 🇮🇳", url="https://t.me/llMR_VAMPIRE_KINGll"),
                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ❄️️️", url="https://t.me/vanshi_support"),
               ],
               [
-                  InlineKeyboardButton("🦅⃤𓆩𝛅 ⋏ ι 𝚳 <🥀/>𓆩❤️𓆪 ﹛🇨🇦﹜", url="https://t.me/DADDY_SAIM"),
+                  InlineKeyboardButton("🦅⃤𓆩ʟ ᴇ ɢ ᴇ ɴ ᴅ<🥀/>𓆩❤️𓆪 ﹛🇨🇦﹜", url="https://t.me/Legend_mickey"),
               ],
               ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -45,6 +45,6 @@ async def clone(bot: app, msg: Message):
         client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="Zaid/modules"))
         await client.start()
         user = await client.get_me()
-        await msg.reply(f"❖ ѕαιм κο ϐααρ ϐοℓ καя jαα αϐ \n\n❍ [❖ │ ѕυнαи ꭙ ʙᴏᴛ │ ❖](https://t.me/DADDY_SAIM)\n\n❖ {user.first_name}")
+        await msg.reply(f"❖ Vᴀᴍᴘɪʀᴇ κο ϐααρ ϐοℓ καя jαα αϐ \n\n❍ [❖ │ ᴍᴜsɪᴄ ꭙ ʙᴏᴛ │ ❖](https://t.me/AYUSHI_MUSIC_BOT)\n\n❖ {user.first_name}")
     except Exception as e:
         await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
