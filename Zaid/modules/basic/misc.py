@@ -57,7 +57,7 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is cloner bot: \n\n\nhttps://t.me/llVAMPIREUSERBOT")
+    await message.edit("Here is cloner bot: \n\n\nhttps://t.me/VAMPIREXUSERBOT")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
