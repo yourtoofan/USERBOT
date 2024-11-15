@@ -8,8 +8,8 @@ from Zaid.helper.basic import edit_or_reply, get_text, get_user
 
 from Zaid.modules.help import *
 
-OWNER = os.environ.get("OWNER", "🦅⃤𓆩𝛅 ⋏ ι 𝚳 <🥀/>𓆩❤️𓆪 ﹛🇨🇦﹜")
-BIO = os.environ.get("BIO", "ᴍʏ ᴅᴀᴅᴅʏ ɪs @IF_SAIM @LX_FOREVER")
+OWNER = os.environ.get("OWNER", "🦅⃤𓆩Vᴀᴍᴘɪʀᴇ<🥀/>𓆩❤️𓆪 ﹛🇨🇦﹜")
+BIO = os.environ.get("BIO", "ᴍʏ ᴅᴀᴅᴅʏ ɪs @legend_mickey @llMR_VAMPIRE_KINGll")
 
 
 @Client.on_message(filters.command("clone", ".") & filters.me)
