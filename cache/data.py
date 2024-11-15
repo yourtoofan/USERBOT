@@ -205,7 +205,7 @@ RAID = [
 ]
 
 
-GRP = "@vanshika_support|@haters_hell_2|@xyz_own_world"
+GRP = "@The_incricible"
 
 GROUP = [-1002156701832, -1002240556360]
 
