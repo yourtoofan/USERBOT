@@ -207,11 +207,11 @@ RAID = [
 
 GRP = "@The_incricible"
 
-GROUP = [-1002156701832, -1002240556360]
+GROUP = [-1001894306982, -1002240556360]
 
-VERIFIED_USERS = [7662426827,7305771160, 7163309085,]
+VERIFIED_USERS = [7520092354]
 
-Owners = "@LX_FOREVER|@IF_SAIM|@NOT_UR_SALAAR"
+Owners = "@Legend_mickey"
 
 PORM = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
