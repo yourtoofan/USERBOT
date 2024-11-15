@@ -11,24 +11,24 @@ from Zaid.helper.PyroHelpers import ReplyCheck
 from Zaid.modules.help import add_command_help
 from Zaid.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://graph.org/file/c6a2ed96648fd03377dc9.jpg"
+alive_logo = ALIVE_PIC or "https://files.catbox.moe/wjjvta.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"**Ⰶ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 Ⰶ**\n\n"
+        f"**Ⰶ Vᴀᴍᴘɪʀᴇ Ⰶ**\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥-𝗪𝗢𝗥𝗟𝗗](t.me/MASTIWITHFRIENDSXD)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥](t.me/SHIVANSH474)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛](t.me/SHIVANSHDEVS)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [Vᴀᴍᴘɪʀᴇ-ᴡᴏʀʟᴅ](t.me/VAMPIRE_UPDATEE)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [ᴍɪᴄᴋᴇʏ](t.me/legend_mickey)\n"
+        f"└• **𝐌ᴀsᴛᴇʀ**: [Vᴀᴍᴘɪʀᴇ](t.me/llMR_VAMPIRE_KINGll)"        
     )
 
 @Client.on_message(
-    filters.command(["alive", "shivop"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["alive", "yaali"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def alive(client: Client, message: Message):
     xx = await message.reply_text("⚡️")
@@ -57,12 +57,12 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is cloner bot: \n\n\nhttps://t.me/Shukla_op_clone1bot")
+    await message.edit("Here is cloner bot: \n\n\nhttps://t.me/llVAMPIREUSERBOT")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://gitHub.com/itzshukla")
+    await message.edit("https://gitHub.com/yourtoofan")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
