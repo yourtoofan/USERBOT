@@ -6,11 +6,11 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "27838385")) #optional
-API_HASH = getenv("API_HASH","0710bd2a89a41c3506f98f7e6fd7294a") #optional
+API_ID = int(getenv("API_ID", "26780204")) #optional
+API_HASH = getenv("API_HASH","77e70295f3b44d02af006cebcb094b20") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS","7662426827").split()))
-OWNER_ID = int(getenv("OWNER_ID","7662426827"))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS","7520092354").split()))
+OWNER_ID = int(getenv("OWNER_ID","7520092354"))
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://envs.sh/ciM.png')
@@ -18,7 +18,7 @@ ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/Legendbap/Shibu-userbot-")
+REPO_URL = getenv("REPO_URL", "https://github.com/yourtoofan/USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
