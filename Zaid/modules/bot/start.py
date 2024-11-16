@@ -23,10 +23,10 @@ async def hello(client: app, message):
               ],
               [
                   InlineKeyboardButton("⌯ ˹Vᴀᴍᴘɪʀᴇ ♡ 𝐗ᴅ𓆪 ⌯ 🥂 / ‹𝟹 #𝐅ᴜᴄᴋ_𝐓ʜᴇ_𝐇ᴀᴛᴇʀ𝗌 ˼ 🇮🇳", url="https://t.me/llMR_VAMPIRE_KINGll"),
-                  InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ❄️️️", url="https://t.me/vanshi_support"),
+                  InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ❄️️️", url="https://t.me/VAMPIRE_UPDATEE"),
               ],
               [
-                  InlineKeyboardButton("🦅⃤𓆩ʟ ᴇ ɢ ᴇ ɴ ᴅ<🥀/>𓆩❤️𓆪 ﹛🇨🇦﹜", url="https://t.me/Legend_mickey"),
+                  InlineKeyboardButton("❍⏤‌‌●𝗩𝗔𝗠𝗣𝗜𝗥𝗘❜✘"𝗞𝗜𝗡𝗚●───♫▷", url="https://t.me/llMR_VAMPIRE_KINGll"),
               ],
               ]
     reply_markup = InlineKeyboardMarkup(buttons)
